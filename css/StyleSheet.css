@@ -1,0 +1,274 @@
+/* Headers */
+	.primary{
+		font-family: 'Trebuchet MS', sans-serif;
+		text-decoration: underline;
+		border-style: ridge;
+		border-width: thick;
+		background-color: black;
+		color: white;
+		font-weight: 900%;
+		height: 40px;
+		border-radius: 25px;
+	}
+
+	.two{
+		font-family: 'Trebuchet MS', sans-serif;
+		text-decoration: underline;
+		border-style: ridge;
+		border-width: thick;
+		background-color: black;
+		color: white;
+		font-weight: 900%;
+		height: 35px;
+		border-radius: 25px;
+	}
+
+	.three{
+		text-decoration: underline;
+		border-radius: 25px;
+	}
+
+/* Paragraph Editing */
+	p{
+		font-size: medium;
+	}
+
+	#bio{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: fit-content;
+		height: fit-content;
+		background: grey;
+		
+	}
+
+	.El{
+		font-family: "papyrus";
+		text-align: center;
+		font-size: 200%;
+		text-decoration: underline;
+		border-style: ridge;
+		border-width: thick;
+		background-color: black;
+		color: white;
+		width: 100%
+		border-radius: 25%;
+	}	
+
+/* Text Editing */
+
+
+/* Body Editing */
+	body {
+		background-image: url("../images/background2.jpg");
+		background-size: cover;
+		background-repeat: no-repeats;
+		background-attachment: fixed;
+	}
+
+	.main{
+		text-align: center;
+		margin-top: 4em;
+	}
+
+
+/* Div editing */
+	div{
+		align-content: center;
+	}
+
+	#div1{
+		margin-top: 25px;
+		margin-bottom: 25px;
+		margin-left: auto;
+		margin-right: auto;
+		border-style: ridge;
+		border-width: thick;
+		width: 400px;
+		height: 135px;
+		background-color: black;
+		color: white;
+		font-weight: 900%;
+		border-radius: 25px;
+	}
+
+/* Button Editing*/
+	b{
+		margin-left: 12px;
+		margin-right: 12px;
+	}
+
+/* Lists Editing */
+	ul{
+		align-content: center;
+		text-decoration: underline;
+	}
+
+/* Image editing */
+	img{
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+	.cat{
+		display: inline-block;
+		width: 300px;
+		max-height: 200px;
+		margin: 1em;
+		max-height: 90%;
+		max-width: 90%;		
+	}
+	
+	#cat2{
+		max-height: 100%;
+		max-width: 100%;		
+	}
+
+	.box{
+		float: left;
+		margin: 1em;
+		margin-left: 70px;
+	}
+
+/* Nav Editing */
+	nav ul  {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	nav a {
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	
+	nav a:hover {
+		color: red;
+	}
+	
+	nav li  {
+		display: inline-block;
+		margin-left: 70px;
+		padding-top: 25px;
+	
+		position: relative;
+	}
+	
+	nav a::before {
+		content: '';
+		display: block;
+		height:  5px;
+		width: 100%;
+		background-color: red;
+	
+		position: absolute;
+		top: 0;
+		width: 0%;
+	
+		transition: all ease-in-out 250ms;
+	}
+	nav a:hover::before {
+		width: 100%;
+	}
+	
+	.containernav {
+		width: 95%;
+		margin: 0 auto;
+		background: black;
+	}
+	
+	header {
+		background: black;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 1100;
+	}
+	
+	header::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+
+/* Table Editing */
+	.tabhead{
+		text-decoration: underline;
+		border-style: ridge;
+		border-width: thick;
+		background-color: black;
+		color: white;
+	}
+
+	table{
+		margin-right: auto;
+		margin-left: auto;
+		border-style: solid;
+		background: grey;
+		border-color: black;
+		font-size: large;
+		border-radius: 25px;
+	}
+
+	td, th{
+		margin-left: auto;
+		margin-right: auto;
+		border-style: double;
+	}
+
+/* Form Editing */
+	form{
+		padding: 15px;
+		border-style: solid;
+		width: auto;
+		background-color: black;
+		color: white;
+		font-weight: 900%;
+		border-style: ridge;
+		border-width: thick;
+		margin-right: 40px;
+		margin-left: 40px;
+		border-radius: 25px;
+
+	}
+
+	input[type=text]:hover{
+		background-color: orangered;
+	}
+
+	input[type=button]{
+		color: white;
+		background-color: slategray;
+		border-color: white;
+		border-style: ridge;
+		padding: 5px;
+		margin-top: 5px;
+	}
+
+	input[type=button]:hover{
+		color: white;
+		background-color: orangered;
+		border-color: white;
+		border-style: ridge;
+		padding: 5px;
+		margin-top: 5px;
+	}
+
+	.title{
+		text-decoration: underline;
+		font-style: italic;
+		font-weight: 900;
+
+	}
+
+	.grid{
+		display: inline-block;
+		max-width: auto;
+		max-height: auto;
+		margin: 1em;
+		max-height: 90%;
+		max-width: 90%;
+		border-radius: 25px;
+	}  
